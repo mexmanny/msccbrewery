@@ -14,4 +14,20 @@ public class CustomerServiceImpl implements CustomerService {
 
 
     }
-}
+
+    public CustomerDTO saveNewCustomer(CustomerDTO customerDTO) {
+
+        return CustomerDTO.builder().customerId(UUID.randomUUID()).build();
+
+    }
+
+    public void updateCustomerId(UUID customerId, CustomerDTO customerDTO) {
+
+
+    }
+
+
+    public void deleteByCustomerId(UUID customerId) {
+
+    }
+ }
