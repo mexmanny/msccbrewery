@@ -31,6 +31,7 @@ public class BeerDto {
 
     private Integer quantityOnHand;
 
+    private String beerStyle;
 
 
 }

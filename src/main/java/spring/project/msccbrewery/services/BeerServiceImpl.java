@@ -22,7 +22,7 @@ public class BeerServiceImpl implements BeerService {
                 .build();
     }
 
-    public void updateBeer (UUID beerId, BeerDto beerDto) {
+    public void updateBeerById (UUID beerId, BeerDto beerDto) {
         //todo imp - would add a real imp to update beer
     }
 
