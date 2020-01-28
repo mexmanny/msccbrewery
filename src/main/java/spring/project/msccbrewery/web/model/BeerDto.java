@@ -14,8 +14,6 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder //Lombok creates a builder for all instance fields in that class.
-@Entity
-
 public class BeerDto {
 
     private UUID id ;
