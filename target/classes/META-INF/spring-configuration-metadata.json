@@ -1,0 +1,16 @@
+{
+  "groups": [
+    {
+      "name": "sfg.brewery",
+      "type": "spring.project.msccbrewery.web.client.BreweryClient",
+      "sourceType": "spring.project.msccbrewery.web.client.BreweryClient"
+    },
+    {
+      "name": "sfg.customer",
+      "type": "spring.project.msccbrewery.web.client.CustomerClient",
+      "sourceType": "spring.project.msccbrewery.web.client.CustomerClient"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

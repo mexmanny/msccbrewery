@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Entity;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
@@ -13,6 +14,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder //Lombok creates a builder for all instance fields in that class.
+@Entity
+
 public class BeerDto {
 
     private UUID id ;
@@ -33,5 +36,6 @@ public class BeerDto {
 
     private String beerStyle;
 
+    private Integer quantityToBrew;
 
 }

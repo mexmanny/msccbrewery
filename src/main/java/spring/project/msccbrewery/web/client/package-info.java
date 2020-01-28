@@ -1,0 +1,1 @@
+package spring.project.msccbrewery.web.client;
